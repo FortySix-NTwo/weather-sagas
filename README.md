@@ -2,7 +2,7 @@
 
 __Hosted__, at this [**Link**](http://)
 
-![readme_logo.png](./weather-sagas-client/public/readme_logo.png)
+![readme_logo.png]("./weather-sagas-client/public/readme_logo.png")
 
 ## Overview
 
