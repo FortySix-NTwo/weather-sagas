@@ -1,8 +1,11 @@
-export default {
+import { createMuiTheme } from '@material-ui/core/styles'
+
+export const theme = createMuiTheme({
   colors: {
-    background: 'radial-gradient(#9580FF, #7970A9)',
+    background: 'radial-gradient(#F8F8F2cc, #6E95D7cc)',
     black: '#22212C',
     white: '#F8F8F2',
+    accu: '#FF4500',
     primary: '#454158',
     purple: '#9580FF',
     pink: '#FF80BF',
@@ -13,4 +16,4 @@ export default {
     red: '#FF9580',
   },
   transition: '0.3s',
-}
+})
