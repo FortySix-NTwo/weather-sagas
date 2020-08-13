@@ -1,4 +1,4 @@
-import {} from 'styled-components'
+import { CSSObject } from 'styled-components'
 import { CSSProp } from 'styled-components'
 import { theme } from '../style'
 

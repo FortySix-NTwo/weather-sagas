@@ -1,5 +1,4 @@
 import { createGlobalStyle, css } from 'styled-components'
-import { theme } from '../style'
 
 const customMediaQuery = (maxWidth: number) =>
   `@media (max-width: ${maxWidth}px)`
@@ -31,8 +30,8 @@ export default createGlobalStyle`
         margin: 0;
 
         #root {
-          background: ${theme.colors.background};
-          color: ${theme.colors.white};
+          background: ${props.theme.primary.main};
+          color: ${props.theme.primary.white};
           display: flex;
           font-family: sans-serif;
           height: 100%;

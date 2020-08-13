@@ -1,19 +1,12 @@
-import { createMuiTheme } from '@material-ui/core/styles'
+import { Theme } from '@material-ui/core'
+import { lightTheme } from './lightTheme'
+import { darkTheme } from './darkTheme'
 
-export const theme = createMuiTheme({
-  colors: {
-    background: 'radial-gradient(#F8F8F2cc, #6E95D7cc)',
-    black: '#22212C',
-    white: '#F8F8F2',
-    accu: '#FF4500',
-    primary: '#454158',
-    purple: '#9580FF',
-    pink: '#FF80BF',
-    orange: '#FFCA80',
-    lightBlue: '#80FFEA',
-    yellow: '#FFFF80',
-    green: '#8AFF80',
-    red: '#FF9580',
-  },
-  transition: '0.3s',
-})
+export function themeCreator(theme: string): Theme {
+  return themeMap[theme]
+}
+
+const themeMap: { [key: string]: Theme } = {
+  lightTheme,
+  darkTheme,
+}
