@@ -27,7 +27,7 @@
     "@types/react-tap-event-plugin": "^0.0.30",
     "@types/styled-components": "^5.1.2",
     "babel-plugin-styled-components": "^1.11.1",
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.5.4",
     "redux-devtools-extension": "^2.13.8",
     "typescript": "^3.9.7",
     "websocket-extensions": "^0.1.4"
